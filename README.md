@@ -8,7 +8,7 @@ CoupleWatch lets you and your partner track moods, share moments, and stay conne
 
 ## What is CoupleWatch?
 
-CoupleWatch is a native iOS app that gives couples a private, visual way to stay emotionally connected. At its core is a 24-hour dual-ring clock — the outer ring represents your partner, the inner ring represents you. Moments appear as emoji markers at the time they happened, and moods shift the colors of the rings in real time.
+CoupleWatch is a native iOS widget-first app that gives couples a private, visual way to stay emotionally connected. At its core is a 24-hour dual-ring clock — the outer ring represents your partner, the inner ring represents you. Moments appear as emoji markers at the time they happened, and moods shift the colors of the rings in real time.
 
 No social feeds. No accounts. No servers. Just you, your partner, and a shared clock synced through iCloud.
 
@@ -69,29 +69,11 @@ CoupleWatch is built entirely on Apple's iCloud infrastructure. All data syncs p
 
 ---
 
-## Project Structure
-
-```
-CoupleWatch/
-├── Models/              # Core Data entity definitions
-├── Services/            # CloudKit sync, sharing, notifications, haptics
-├── Storage/             # Repositories and user management
-├── ViewModels/          # View models for Home and event creation
-├── Views/
-│   ├── HomeView/        # Main clock, mood picker, moment creator
-│   ├── EventHistoryView/# Chronological timeline of shared moments
-│   └── SettingsView/    # Partner connection, colors, widget setup
-├── Shared/              # App Intents and shared utilities
-└── Couple​Watch​Widget/   # Home screen widget
-```
-
----
-
 ## Contact
 
 Built by [Martijn van Veen](https://github.com/martijnvanveen).
 
-For feedback or questions, reach out through the in-app feedback button or open an issue on this repository.
+For feedback or questions, reach out through the in-app feedback button.
 
 ---
 
